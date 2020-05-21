@@ -1,0 +1,25 @@
+.bg-accent {
+  background-color: #f06292;
+}
+
+.btn-accent {
+  background-color: #ec3372;
+}
+
+.text-accent {
+  font-family: Calibri;
+  color: #f06292;
+}
+
+.list-hover {
+  background-color: transparent;
+  transition: 0.5s;
+}
+
+.list-hover:hover {
+  background-color: #ec3d78;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+/*# sourceMappingURL=storestyle.css.map */

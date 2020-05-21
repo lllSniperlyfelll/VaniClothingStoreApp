@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA,UAAU;EACN,gBAAgB,ECDL,OAAO;;;ADGtB,WAAW;EACP,gBAAgB,EAAE,OAA0B;;;AAGhD,YAAY;EACR,WAAW,EAAE,OAAO;EACpB,KAAK,ECTM,OAAO;;;ADYtB,WAAW;EACP,gBAAgB,EAAE,WAAW;EAC7B,UAAU,ECbI,IAAI;;;ADetB,iBAAiB;EAEb,gBAAgB,EAAE,OAAwB;EAC1C,aAAa,ECjBD,IAAI;EDkBhB,UAAU,ECnBI,IAAI",
+"sources": ["Components/Styles/consumer.scss","Components/Styles/variables.scss"],
+"names": [],
+"file": "storestyle.css"
+}
