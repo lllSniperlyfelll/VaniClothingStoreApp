@@ -15,6 +15,10 @@
   color: #f06292;
 }
 
+.border-accent {
+  border: 3px #f06292;
+}
+
 .list-hover {
   background-color: transparent;
   transition: 0.5s;
@@ -26,20 +30,21 @@
   transition: 0.5s;
 }
 
+.title-font {
+  font-family: "Lobster", cursive;
+}
+
 @media screen and (min-width: 300px) {
   .header-font {
-    font-family: Calibri;
     font-size: 25px;
   }
 
   .card-title-font {
-    font-family: Calibri;
     font-size: 18px;
     font-weight: bolder;
   }
 
   .content-font {
-    font-family: Calibri;
     font-size: 14px;
   }
 
@@ -52,18 +57,15 @@
 }
 @media screen and (min-width: 575.98px) {
   .header-font {
-    font-family: Calibri;
     font-size: 30px;
   }
 
   .card-title-font {
-    font-family: Calibri;
     font-size: 25px;
     font-weight: bolder;
   }
 
   .content-font {
-    font-family: Calibri;
     font-size: 16px;
   }
 
@@ -76,18 +78,15 @@
 }
 @media screen and (min-width: 767.98px) {
   .header-font {
-    font-family: Calibri;
     font-size: 35px;
   }
 
   .card-title-font {
-    font-family: Calibri;
     font-size: 30px;
     font-weight: bolder;
   }
 
   .content-font {
-    font-family: Calibri;
     font-size: 20px;
   }
 
@@ -100,18 +99,15 @@
 }
 @media screen and (min-width: 991.98px) {
   .header-font {
-    font-family: Calibri;
     font-size: 40px;
   }
 
   .card-title-font {
-    font-family: Calibri;
     font-size: 30px;
     font-weight: bolder;
   }
 
   .content-font {
-    font-family: Calibri;
     font-size: 20px;
   }
 
@@ -124,17 +120,14 @@
 }
 @media screen and (min-width: 1199.98px) {
   .header-font {
-    font-family: Calibri;
     font-size: 45px;
   }
 
   .card-title-font {
-    font-family: Calibri;
     font-size: 30px;
   }
 
   .content-font {
-    font-family: Calibri;
     font-size: 20px;
   }
 
@@ -147,12 +140,10 @@
 }
 @media screen and (min-width: 1920px) {
   .header-font {
-    font-family: Calibri;
     font-size: 55px;
   }
 
   .card-title-font {
-    font-family: Calibri;
     font-size: 30px;
   }
 

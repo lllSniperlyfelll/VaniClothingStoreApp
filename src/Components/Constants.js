@@ -11,8 +11,6 @@ export const appTitle = [
    
                         
 
-
-
 /*
 <Link to="/product" className="btn btn-accent text-white w3-card">More <i className="fa fa-arrow-right"></i></Link>
  */

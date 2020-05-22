@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AACA,UAAU;EACN,gBAAgB,ECDL,OAAO;;ADGtB,WAAW;EACP,gBAAgB,EAAE,OAA0B;;AAGhD,YAAY;EACR,WAAW,EAAE,OAAO;EACpB,KAAK,ECTM,OAAO",
-"sources": ["consumer.scss","variables.scss"],
-"names": [],
-"file": "storestyle.css"
-}

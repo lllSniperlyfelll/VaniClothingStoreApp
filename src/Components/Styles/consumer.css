@@ -9,7 +9,7 @@ Error: Undefined variable: "$accent-color".
 5: .btn-accent{
 6:     background-color: darken($accent-color, 10%);
 7: }
-8: 
+8: .btn-accent:hover{
 
 Backtrace:
 C:\Users\HP\Desktop\ClothingStoreApp\cloting_store_app\src\Components\Styles\consumer.scss:3
@@ -59,4 +59,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$accent-color\".\A         on line 3 of C:\Users\HP\Desktop\ClothingStoreApp\cloting_store_app\src\Components\Styles\consumer.scss\A \A 1: \A 2: .bg-accent{\A 3:     background-color: $accent-color;\A 4: }\A 5: .btn-accent{\A 6:     background-color: darken($accent-color, 10%);\A 7: }\A 8: "; }
+  content: "Error: Undefined variable: \"$accent-color\".\A         on line 3 of C:\Users\HP\Desktop\ClothingStoreApp\cloting_store_app\src\Components\Styles\consumer.scss\A \A 1: \A 2: .bg-accent{\A 3:     background-color: $accent-color;\A 4: }\A 5: .btn-accent{\A 6:     background-color: darken($accent-color, 10%);\A 7: }\A 8: .btn-accent:hover{"; }
