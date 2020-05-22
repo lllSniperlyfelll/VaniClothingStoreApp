@@ -5,6 +5,9 @@
 .btn-accent{
     background-color: darken($accent-color, 10%);
 }
+.btn-accent:hover{
+    background-color: darken($accent-color, 22%);
+}
 
 .text-accent{
     font-family: Calibri;
@@ -22,3 +25,10 @@
     transition: $transition-time;
     
 }
+
+@include extraSmallScreens;
+@include smallScreens; 
+@include midScreens;
+@include largeScreens;
+@include extraLargeScreens;
+@include extraxLargeScreens;

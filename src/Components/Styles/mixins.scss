@@ -1,0 +1,144 @@
+
+@mixin extraSmallScreens{
+    @media screen and (min-width: $screen-xs-min) {
+        .header-font{
+            font-family: $global-font;
+            font-size: $min-font-size + 10px;
+        }
+        .card-title-font{
+            font-family: $global-font;
+            font-size: $min-font-size + 3px;
+            font-weight: $card-header-font-weight;
+        }
+        .content-font{
+            font-family: $global-font;
+            font-size: $min-content-font-size + 4px;
+        }
+        .standard-height{
+            min-height: $min-allow-height;
+            max-height: $max-allow-height;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    }
+}
+
+@mixin smallScreens{
+    @media screen and (min-width: $screen-sm-min) {
+        .header-font{
+            font-family: $global-font;
+            font-size: $min-font-size + 15px;
+        }
+        .card-title-font{
+            font-family: $global-font;
+            font-size: $min-font-size + 10px;
+            font-weight: $card-header-font-weight;
+        }
+
+        .content-font{
+            font-family: $global-font;
+            font-size: $min-content-font-size + 6px;
+        }
+        .standard-height{
+            min-height: $min-allow-height;
+            max-height: $max-allow-height;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    }
+}
+
+
+@mixin midScreens{
+    @media screen and (min-width: $screen-md-min) {
+        .header-font{
+            font-family: $global-font;
+            font-size: $min-font-size + 20px;
+        }
+        .card-title-font{
+            font-family: $global-font;
+            font-size: $min-font-size + 15px;
+            font-weight: $card-header-font-weight;
+        }
+        .content-font{
+            font-family: $global-font;
+            font-size: $min-content-font-size + 10px;
+        }
+        .standard-height{
+            min-height: $min-allow-height;
+            max-height: $max-allow-height;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    }
+}
+
+
+@mixin largeScreens{
+    @media screen and (min-width: $screen-lg-min) {
+        .header-font{
+            font-family: $global-font;
+            font-size: $min-font-size + 25px;
+        }
+        .card-title-font{
+            font-family: $global-font;
+            font-size: $min-font-size + 15px;
+            font-weight: $card-header-font-weight;
+        }
+        .content-font{
+            font-family: $global-font;
+            font-size: $min-content-font-size + 10px;
+        }
+        .standard-height{
+            min-height: $min-allow-height;
+            max-height: $max-allow-height + 100px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    }
+}
+
+@mixin extraLargeScreens{
+    @media screen and (min-width: $screen-xl-min) {
+        .header-font{
+            font-family: $global-font;
+            font-size: $min-font-size + 30px;
+        }
+        .card-title-font{
+            font-family: $global-font;
+            font-size: $min-font-size + 15px;
+        }
+        .content-font{
+            font-family: $global-font;
+            font-size: $min-content-font-size + 10px;
+        }
+        .standard-height{
+            min-height: $min-allow-height;
+            max-height: $max-allow-height + 100px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    }
+}
+
+@mixin extraxLargeScreens{
+    @media screen and (min-width: $screen-xxl-min) {
+        .header-font{
+            font-family: $global-font;
+            font-size: $min-font-size + 40px;
+        }
+        .card-title-font{
+            font-family: $global-font;
+            font-size: $min-font-size + 15px;
+        }
+        .standard-height{
+            min-height: $min-allow-height;
+            max-height: $max-allow-height + 150px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    }
+
+}
+
+

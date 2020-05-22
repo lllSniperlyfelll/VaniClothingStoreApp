@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
+import {appTitle} from '../Constants';
 
 
 
@@ -14,7 +15,7 @@ class AppNavbar extends Component {
                             <i className="fa fa-bars"></i>
                         </button>
                         <span className="navbar-brand text-white">
-                            <i className="fa fa-shopping-bag"/>{" "}Clothes store
+                            {appTitle}
                         </span>
                     </nav>
                     <div className="collapse" id="parentNavbar">

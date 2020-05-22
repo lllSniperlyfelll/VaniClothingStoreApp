@@ -1,4 +1,46 @@
-
+//Color var for bg-accent
 $accent-color: #f06292;
+
+//list hover transition time
 $transition-time: 0.5s;
+
+
+//Global radius
 $border-radius: 10px;
+
+
+// Min font size (base font)
+$min-font-size : 15px; 
+
+//Min content font size(base content font)
+$min-content-font-size: 10px;
+
+// Extra Small screens
+$screen-xs-min: 300px;
+
+// Small tablets and large smartphones (landscape view)
+$screen-sm-min: 575.98px;
+
+// Small tablets (portrait view)
+$screen-md-min: 767.98px;
+
+// Tablets and small desktops
+$screen-lg-min: 991.98px;
+
+// Large tablets and desktops
+$screen-xl-min: 1199.98px;
+
+// X large desktops
+$screen-xxl-min: 1920px;
+
+// Globally applied fonts
+$global-font: Calibri;
+
+//Card heading font weight
+$card-header-font-weight: bolder;
+
+//Max height of card description
+$max-allow-height: 500px;
+
+//Mix height of card description
+$min-allow-height: 500px;

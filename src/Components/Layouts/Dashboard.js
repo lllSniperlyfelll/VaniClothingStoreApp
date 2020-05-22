@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import AppNavbar from './AppNavbar';
-import dashboardImg from './dashboard_img.jpg';
+import AllProducts from "../Products/AllProducts";
+import {appTitle} from '../Constants';
 
 
 class Dashboard extends Component {
@@ -9,9 +10,21 @@ class Dashboard extends Component {
             <div>
                 <AppNavbar/>
                 <div className="">
-                    <div className="jumbotron-fluid bg-trasnparent rounded-0 card border-0 rounded-0">
-                        <img src={dashboardImg} className="card-img-top w3-grayscale" id="dashimg" />
+                    <div className="jumbotron bg-accent rounded-0 card border-0 rounded-0 text-center">
+                        <div className="row">
+                            <div className="col-sm-6 mx-auto">
+                                <p className="text-white header-font">
+                                    Get the latest fashion and perfect
+                                    sizes for you right here at {appTitle}.
+                                </p>
+                            </div>
+                        </div>
                     </div>
+                </div>
+
+
+                <div className="container">
+                    <AllProducts/>
                 </div>
             </div>
         )

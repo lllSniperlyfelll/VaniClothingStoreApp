@@ -6,6 +6,10 @@
   background-color: #ec3372;
 }
 
+.btn-accent:hover {
+  background-color: #ce1453;
+}
+
 .text-accent {
   font-family: Calibri;
   color: #f06292;
@@ -20,6 +24,144 @@
   background-color: #ec3d78;
   border-radius: 10px;
   transition: 0.5s;
+}
+
+@media screen and (min-width: 300px) {
+  .header-font {
+    font-family: Calibri;
+    font-size: 25px;
+  }
+
+  .card-title-font {
+    font-family: Calibri;
+    font-size: 18px;
+    font-weight: bolder;
+  }
+
+  .content-font {
+    font-family: Calibri;
+    font-size: 14px;
+  }
+
+  .standard-height {
+    min-height: 500px;
+    max-height: 500px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+@media screen and (min-width: 575.98px) {
+  .header-font {
+    font-family: Calibri;
+    font-size: 30px;
+  }
+
+  .card-title-font {
+    font-family: Calibri;
+    font-size: 25px;
+    font-weight: bolder;
+  }
+
+  .content-font {
+    font-family: Calibri;
+    font-size: 16px;
+  }
+
+  .standard-height {
+    min-height: 500px;
+    max-height: 500px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+@media screen and (min-width: 767.98px) {
+  .header-font {
+    font-family: Calibri;
+    font-size: 35px;
+  }
+
+  .card-title-font {
+    font-family: Calibri;
+    font-size: 30px;
+    font-weight: bolder;
+  }
+
+  .content-font {
+    font-family: Calibri;
+    font-size: 20px;
+  }
+
+  .standard-height {
+    min-height: 500px;
+    max-height: 500px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+@media screen and (min-width: 991.98px) {
+  .header-font {
+    font-family: Calibri;
+    font-size: 40px;
+  }
+
+  .card-title-font {
+    font-family: Calibri;
+    font-size: 30px;
+    font-weight: bolder;
+  }
+
+  .content-font {
+    font-family: Calibri;
+    font-size: 20px;
+  }
+
+  .standard-height {
+    min-height: 500px;
+    max-height: 600px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+@media screen and (min-width: 1199.98px) {
+  .header-font {
+    font-family: Calibri;
+    font-size: 45px;
+  }
+
+  .card-title-font {
+    font-family: Calibri;
+    font-size: 30px;
+  }
+
+  .content-font {
+    font-family: Calibri;
+    font-size: 20px;
+  }
+
+  .standard-height {
+    min-height: 500px;
+    max-height: 600px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .header-font {
+    font-family: Calibri;
+    font-size: 55px;
+  }
+
+  .card-title-font {
+    font-family: Calibri;
+    font-size: 30px;
+  }
+
+  .standard-height {
+    min-height: 500px;
+    max-height: 650px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
 }
 
 /*# sourceMappingURL=storestyle.css.map */
