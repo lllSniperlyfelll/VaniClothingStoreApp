@@ -2,7 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 
-
+/*
+<i className="fa fa-shopping-bag"/>Clothes store
+ */
 export const appTitle = [
                             React.createElement("i",{class: "fa fa-shopping-bag"},""), 
                             React.createElement("span"  ,{} ,` Clothes store `)
@@ -27,3 +29,6 @@ export const moreLink =(id) =>{
     
     return wholeLink;
 }
+
+
+

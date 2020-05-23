@@ -6,7 +6,7 @@ import fourthImage from '../../SampleImages/4.png';
 import {moreLink} from '../Constants';
 
 import {Link} from 'react-router-dom';
-import $ from 'jquery';
+
 
 
 

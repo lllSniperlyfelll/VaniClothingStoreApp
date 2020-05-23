@@ -8,7 +8,6 @@ class Dashboard extends Component {
     render() {
         return (
             <div>
-                <AppNavbar/>
                 <div className="">
                     <div className="jumbotron bg-accent rounded-0 card border-0 rounded-0 text-center">
                         <div className="row">
